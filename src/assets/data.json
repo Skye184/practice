@@ -1,0 +1,11 @@
+[
+  {"id": 1, "name": "Ken", "age": 27, "Status": "married", "occupation": "IT"},
+  {"id": 2, "name": "Dang", "age": 13, "Status": "Single", "occupation": "Doctor"},
+  {"id": 3, "name": "John", "age": 27, "Status": "Single", "occupation": "Nurse"},
+  {"id": 4, "name": "Mike", "age": 56, "Status": "married", "occupation": "Lawyer"},
+  {"id": 5, "name": "Karen", "age": 33, "Status": "Single", "occupation": "IT"},
+  {"id": 6, "name": "Nina", "age": 25, "Status": "married", "occupation": "Teacher"},
+  {"id": 7, "name": "Kara", "age": 72, "Status": "married", "occupation": "Firemans"},
+  {"id": 8, "name": "Ruben", "age": 45, "Status": "married", "occupation": "Farmer"},
+  {"id": 9, "name": "Carlo", "age": 27, "Status": "Single", "occupation": "Police"}
+]

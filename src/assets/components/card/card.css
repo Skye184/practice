@@ -1,0 +1,12 @@
+.card{
+  border: 1px solid gray;
+  padding: 12px;
+  max-width: 100px;
+}
+
+button{
+  background: none;
+  cursor: pointer;
+  float: right;
+  border-radius: 2px;
+}

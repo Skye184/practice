@@ -1,0 +1,74 @@
+.card {
+  border: 1px solid gray;
+  width: max-content;
+  min-width: 250px;
+  padding: 12px 18px;
+  background: white;
+  border-radius: 12px;
+  animation: onEnter 400ms ease-out;
+
+  .header{
+    display: flex;
+    justify-content: space-between;
+
+    .circle{
+      height: 12px;
+      width: 12px;
+      border-radius: 50%;
+      background-color: blue;
+    }
+    
+    .xbtn{
+      border: none;
+      background: none;
+      cursor: pointer;
+      color: grey;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .todo {
+      background: blue
+    }
+
+    .complete {
+      background: green
+    }
+
+    .expired {
+      background: red
+    }
+
+  }
+ 
+  .btns{
+    text-align: right;
+
+    .tdbtn{
+      color: blue;
+    }
+
+    .compbtn{
+      color: green;
+    }
+
+    .expbtn{
+      color: red;
+    }
+
+    button {
+      background: none;
+      text-transform: uppercase;
+      font-weight: 700;
+      cursor: pointer;
+      border: none;
+      font-size: 10px;
+    }
+  }
+
+  
+}
+
+@keyframes onEnter {
+  from {opacity: 0;}
+}
